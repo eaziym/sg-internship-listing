@@ -4,6 +4,12 @@
  !important: check the location - a few of them may not be in SG
 
 
+List of companies with their career links to be integrated can be found here
+
+https://docs.google.com/document/d/1uUZv7DhzqdMrmc2H6mlP66-T4WMGDqg1ucDJ-mYvdpE/edit?usp=sharing
+
+
+
 <!-- TABLE_START -->
 _Last updated: 2024-04-22 16:26:34_
 
