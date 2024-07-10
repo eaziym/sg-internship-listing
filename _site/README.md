@@ -466,3 +466,20 @@ _Last updated: 2024-07-10 19:55:13_
 <div markdown='0'>{% include fancy-tables.liquid markdown=table %}</div>
 {{ table }}
 <!-- TABLE_END -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const searchBar = document.createElement('input');
+  const table = document.querySelector('table');
+  searchBar.setAttribute('type', 'text');
+  searchBar.setAttribute('placeholder', 'Search by company...');
+  table.before(searchBar);
+
+  searchBar.addEventListener('input', function(e) {
+    const term = e.target.value.toLowerCase();
+    Array.from(table.getElementsByTagName('tr')).forEach(function(row) {
+      row.style.display = row.textContent.toLowerCase().includes(term) ? '' : 'none';
+    });
+  });
+});
+</script>
