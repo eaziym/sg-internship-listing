@@ -464,7 +464,6 @@ _Last updated: 2024-07-10 19:55:13_
 ```
 {% endcapture %}
 <div markdown='0'>{% include fancy-tables.liquid markdown=table %}</div>
-{{ table }}
 <!-- TABLE_END -->
 
 <script>
@@ -472,7 +471,8 @@ document.addEventListener("DOMContentLoaded", function(){
   const searchBar = document.createElement('input');
   const table = document.querySelector('table');
   searchBar.setAttribute('type', 'text');
-  searchBar.setAttribute('placeholder', 'Search by company...');
+  searchBar.setAttribute('placeholder', 'Search by any text');
+  searchBar.className = 'input-search-bar'; // Set the class name for styling
   table.before(searchBar);
 
   searchBar.addEventListener('input', function(e) {
