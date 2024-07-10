@@ -11,7 +11,7 @@ List of companies with their career links to be integrated can be found [here](h
 
 
 <!-- TABLE_START -->
-_Last updated: 2024-07-10 19:01:56_
+_Last updated: 2024-07-10 19:17:00_
 
 ## Total Job Count: 412
 ## Company Index
@@ -463,4 +463,6 @@ _Last updated: 2024-07-10 19:01:56_
 | **[<a name='wintermute'></a>wintermute](https://web3.career)**                                | Graduate Trading Assistant                                                                                                                                       | <a href="https://web3.career/graduate-trading-assistant-wintermute-trading/68993"><img src="assets/images/apply-btn.png" width="100" alt="Apply"></a>                                                                                                                                                                                                                              | $22k - $31k                                                                                                                                                                                                                                                  |
 ```
 {% endcapture %}
+{% include fancy-tables.liquid markdown=table %}
+{{ table }}
 <!-- TABLE_END -->
