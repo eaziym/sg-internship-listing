@@ -1,5 +1,17 @@
-<!-- Last updated: 2024-07-10 19:17:00 -->
-<!-- Please leave a one line gap between this and the table TABLE_START (DO NOT CHANGE THIS LINE) -->
+# sg-internship-listing
+ one-stop internship listing for sg undergrads/grads
+
+ !important: check the location - a few of them may not be in SG
+
+
+List of companies with their career links to be integrated can be found [here](https://docs.google.com/document/d/1uUZv7DhzqdMrmc2H6mlP66-T4WMGDqg1ucDJ-mYvdpE/edit?usp=sharing)
+
+
+
+
+
+<!-- TABLE_START -->
+_Last updated: 2024-07-10 20:39:51_
 
 ## Total Job Count: 412
 ## Company Index
@@ -451,5 +463,24 @@
 | **[<a name='wintermute'></a>wintermute](https://web3.career)**                                | Graduate Trading Assistant                                                                                                                                       | <a href="https://web3.career/graduate-trading-assistant-wintermute-trading/68993"><img src="assets/images/apply-btn.png" width="100" alt="Apply"></a>                                                                                                                                                                                                                              | $22k - $31k                                                                                                                                                                                                                                                  |
 ```
 {% endcapture %}
-{% include fancy-tables.liquid markdown=table %}
+<div markdown='0'>{% include fancy-tables.liquid markdown=table %}</div>
 {{ table }}
+<!-- TABLE_END -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const searchBar = document.createElement('input');
+  const table = document.querySelector('table');
+  searchBar.setAttribute('type', 'text');
+  searchBar.setAttribute('placeholder', 'Search by any text');
+  searchBar.className = 'input-search-bar'; // Set the class name for styling
+  table.before(searchBar);
+
+  searchBar.addEventListener('input', function(e) {
+    const term = e.target.value.toLowerCase();
+    Array.from(table.querySelectorAll('tbody tr')).forEach(function(row) {
+      row.style.display = row.textContent.toLowerCase().includes(term) ? '' : 'none';
+    });
+  });
+});
+</script>
