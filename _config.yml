@@ -1,0 +1,11 @@
+title: Jekyll Fancy Tables
+remote_theme: pages-themes/cayman@v0.2.0
+
+repository: RichDom2185/jekyll-fancy-tables
+markdown: kramdown
+
+description: A pure Liquid way to generate fancy tables using extended Markdown Syntax.
+
+plugins:
+  - jemoji
+  - jekyll-remote-theme

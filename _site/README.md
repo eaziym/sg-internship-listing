@@ -11,7 +11,7 @@ List of companies with their career links to be integrated can be found [here](h
 
 
 <!-- TABLE_START -->
-_Last updated: 2024-07-10 19:17:00_
+_Last updated: 2024-07-10 19:50:10_
 
 ## Total Job Count: 412
 ## Company Index
@@ -45,7 +45,6 @@ _Last updated: 2024-07-10 19:17:00_
 - [wintermute](#wintermute)
 
 ## Internship Listings
-{% capture table %}
 ```table
 | Company                                                                                       | Title                                                                                                                                                            | Application Link                                                                                                                                                                                                                                                                                                                                                                   | Description                                                                                                                                                                                                                                                  |
 |:----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -462,7 +461,5 @@ _Last updated: 2024-07-10 19:17:00_
 | [shopee](https://careers.shopee.sg)                                                           | Business Development (Data Analyst) Intern - Revenue Marketing Solutions (External Traffic) (Fall 2024)                                                          | <a href="https://careers.shopee.sg/job-detail/J00204857/1?channel=10001"><img src="assets/images/apply-btn.png" width="100" alt="Apply"></a>                                                                                                                                                                                                                                       | nan                                                                                                                                                                                                                                                          |
 | **[<a name='wintermute'></a>wintermute](https://web3.career)**                                | Graduate Trading Assistant                                                                                                                                       | <a href="https://web3.career/graduate-trading-assistant-wintermute-trading/68993"><img src="assets/images/apply-btn.png" width="100" alt="Apply"></a>                                                                                                                                                                                                                              | $22k - $31k                                                                                                                                                                                                                                                  |
 ```
-{% endcapture %}
-{% include fancy-tables.liquid markdown=table %}
 {{ table }}
 <!-- TABLE_END -->
