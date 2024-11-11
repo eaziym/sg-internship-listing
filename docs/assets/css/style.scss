@@ -18,3 +18,29 @@
     border-color: #0056b3;
     box-shadow: 0 0 8px rgba(49, 138, 172, 0.5);
 }
+
+.search-filter-container {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 100;
+  }
+  
+  .job-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    
+    .tag {
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      background: #f0f0f0;
+      
+      &.finance { background: #e3f2fd; }
+      &.technology { background: #e8f5e9; }
+      &.consulting { background: #fff3e0; }
+    }
+  }

@@ -1,0 +1,19 @@
+<div class="search-filter-container">
+    <input type="text" id="searchBar" placeholder="Search jobs, companies, or skills...">
+    
+    <div class="filter-buttons">
+      <select id="industryFilter">
+        <option value="">All Industries</option>
+        {% for industry in site.data.industries %}
+          <option value="{{ industry }}">{{ industry }}</option>
+        {% endfor %}
+      </select>
+      
+      <select id="roleFilter">
+        <option value="">All Roles</option>
+        {% for role in site.data.roles %}
+          <option value="{{ role }}">{{ role }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
