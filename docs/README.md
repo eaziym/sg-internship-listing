@@ -60,24 +60,23 @@ window.onclick = function(event) {
 }
 </script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQX2NGKC"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WKJQX2NGKC');
+</script>
+
 More about me [here](https://eaziym.github.io/shiyao.me/)
 
 <!-- TABLE_START -->
+
 _Last updated: 2025-01-25 03:42:34_
 
-
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQX2NGKC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-    gtag('config', 'G-WKJQX2NGKC');
-    </script>
-    
 ## 📊 Key Statistics
+
 - **Total Positions:** 987
 - **Active Companies:** 240
 - **Industries Represented:** 11
@@ -85,6 +84,7 @@ _Last updated: 2025-01-25 03:42:34_
 <a href="#internship-listings" style="display: inline-block; padding: 10px 20px; background-color: lightblue; color: #fff; text-decoration: none; border-radius: 5px; margin: 10px 0;">Jump to Listings ⬇️</a>
 
 ### 🏢 Jobs by Industry
+
 - Others: 302
 - Business: 110
 - Engineering: 98
@@ -141,6 +141,7 @@ _Last updated: 2025-01-25 03:42:34_
 - Manufacturing: 1
 
 ### 👔 Most Common Roles
+
 - Intern - Manufacturing: 5
 - Internship - HR Talent Acquisition, Emerging Talent: 3
 - Business Development Intern: 3
@@ -148,6 +149,7 @@ _Last updated: 2025-01-25 03:42:34_
 - Internship - Automation Engineer: 3
 
 ## Company Index
+
 - [a loop pte. ltd.](#a-loop-pte.-ltd.)
 - [aaic investments pte. ltd](#aaic-investments-pte.-ltd)
 - [abundant life planners pte ltd](#abundant-life-planners-pte-ltd)
@@ -202,7 +204,7 @@ _Last updated: 2025-01-25 03:42:34_
 - [cushman & wakefield](#cushman-and-wakefield)
 - [dazzle organisation](#dazzle-organisation)
 - [dell](#dell)
-- [dell global b.v. (singapore branch)](#dell-global-b.v.-(singapore-branch))
+- [dell global b.v. (singapore branch)](<#dell-global-b.v.-(singapore-branch)>)
 - [deloitte](#deloitte)
 - [deutsche börse](#deutsche-börse)
 - [deutsche börse group](#deutsche-börse-group)
@@ -229,7 +231,7 @@ _Last updated: 2025-01-25 03:42:34_
 - [fish in the ocean](#fish-in-the-ocean)
 - [fleur label sg pte ltd](#fleur-label-sg-pte-ltd)
 - [forvis mazars](#forvis-mazars)
-- [future electronics inc. (distribution) pte ltd](#future-electronics-inc.-(distribution)-pte-ltd)
+- [future electronics inc. (distribution) pte ltd](<#future-electronics-inc.-(distribution)-pte-ltd>)
 - [garena](#garena)
 - [gem strategic alliance pte ltd](#gem-strategic-alliance-pte-ltd)
 - [genvoice](#genvoice)
@@ -264,16 +266,16 @@ _Last updated: 2025-01-25 03:42:34_
 - [kone](#kone)
 - [kpmg](#kpmg)
 - [kronos research](#kronos-research)
-- [kuok (singapore) limited](#kuok-(singapore)-limited)
+- [kuok (singapore) limited](<#kuok-(singapore)-limited>)
 - [lalamove](#lalamove)
 - [lexagle](#lexagle)
-- [lilo health food (sg) pte ltd](#lilo-health-food-(sg)-pte-ltd)
+- [lilo health food (sg) pte ltd](<#lilo-health-food-(sg)-pte-ltd>)
 - [logicalis](#logicalis)
 - [logiscool je](#logiscool-je)
 - [louis vuitton](#louis-vuitton)
 - [lyza education pte. ltd.](#lyza-education-pte.-ltd.)
 - [maersk](#maersk)
-- [marshall cavendish education (mce) pte ltd](#marshall-cavendish-education-(mce)-pte-ltd)
+- [marshall cavendish education (mce) pte ltd](<#marshall-cavendish-education-(mce)-pte-ltd>)
 - [mastercard](#mastercard)
 - [masters career consultancy pte ltd](#masters-career-consultancy-pte-ltd)
 - [mckinsey](#mckinsey)
@@ -311,8 +313,8 @@ _Last updated: 2025-01-25 03:42:34_
 - [r-logic international pte ltd](#r-logic-international-pte-ltd)
 - [raffles kidz international pte. ltd.](#raffles-kidz-international-pte.-ltd.)
 - [rapsodo](#rapsodo)
-- [razer (asia-pacific) pte. ltd](#razer-(asia-pacific)-pte.-ltd)
-- [real finance (inzy)](#real-finance-(inzy))
+- [razer (asia-pacific) pte. ltd](<#razer-(asia-pacific)-pte.-ltd>)
+- [real finance (inzy)](<#real-finance-(inzy)>)
 - [rekuten global](#rekuten-global)
 - [resorts world at sentosa pte. ltd.](#resorts-world-at-sentosa-pte.-ltd.)
 - [ripple](#ripple)
@@ -340,7 +342,7 @@ _Last updated: 2025-01-25 03:42:34_
 - [subsea 7](#subsea-7)
 - [substance](#substance)
 - [sumitomo mitsui banking corporation](#sumitomo-mitsui-banking-corporation)
-- [sumitomo mitsui banking corporation (smbc)](#sumitomo-mitsui-banking-corporation-(smbc))
+- [sumitomo mitsui banking corporation (smbc)](<#sumitomo-mitsui-banking-corporation-(smbc)>)
 - [superink pte ltd](#superink-pte-ltd)
 - [swat mobility pte. ltd.](#swat-mobility-pte.-ltd.)
 - [syfe pte. ltd.](#syfe-pte.-ltd.)
