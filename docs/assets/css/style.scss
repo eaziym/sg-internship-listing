@@ -2,11 +2,28 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Base responsive styles */
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px; /* Slightly smaller base font size for mobile */
+  }
+  
+  body {
+    padding: 15px;
+  }
+}
+
+/* Search bar styles */
 .input-search-bar {
     padding: 10px;
     width: 95%;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -19,6 +36,48 @@
     box-shadow: 0 0 8px rgba(49, 138, 172, 0.5);
 }
 
+/* Table responsive styles */
+table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0;
+    border-collapse: collapse;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+    
+    td, th {
+        padding: 8px;
+        min-width: 120px; /* Ensure columns don't get too narrow */
+    }
+    
+    /* Make company column wider */
+    td:first-child, th:first-child {
+        min-width: 150px;
+    }
+}
+
+/* Modal responsive styles */
+#donateModal .modal-content {
+    width: 90%;
+    max-width: 500px;
+    margin: 15% auto;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    #donateModal .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+}
+
+/* Search filter container */
 .search-filter-container {
     position: sticky;
     top: 0;
@@ -26,21 +85,51 @@
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 100;
-  }
-  
-  .job-tags {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Job tags responsive styles */
+.job-tags {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+    margin: 0.5rem 0;
     
     .tag {
-      padding: 0.2rem 0.6rem;
-      border-radius: 12px;
-      font-size: 0.8rem;
-      background: #f0f0f0;
-      
-      &.finance { background: #e3f2fd; }
-      &.technology { background: #e8f5e9; }
-      &.consulting { background: #fff3e0; }
+        padding: 0.4rem 0.8rem;
+        border-radius: 12px;
+        font-size: 0.9rem;
+        background: #f0f0f0;
+        margin: 0.2rem;
+        white-space: nowrap;
+        
+        &.finance { background: #e3f2fd; }
+        &.technology { background: #e8f5e9; }
+        &.consulting { background: #fff3e0; }
     }
-  }
+}
+
+/* Button styles */
+button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+}
+
+/* General content responsiveness */
+.content-wrapper {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Apply button responsive styles */
+.apply-button {
+    max-width: 100px;
+    height: auto;
+}

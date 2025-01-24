@@ -9,3 +9,18 @@ description: A curated list of internship opportunities in Singapore for student
 plugins:
   - jemoji
   - jekyll-remote-theme
+
+# Add viewport meta tag for mobile responsiveness
+webmaster_verifications:
+  google: null
+  bing: null
+  alexa: null
+  yandex: null
+  baidu: null
+
+# Ensure proper mobile rendering
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
